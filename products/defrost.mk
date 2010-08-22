@@ -25,7 +25,7 @@ PRODUCT_PACKAGES += Torch \
 PRODUCT_PACKAGE_OVERLAYS += vendor/defrost/overlay/bravo
 
 # Use a precompiled kernel until the merge with cm-kernel
-TARGET_PREBUILT_KERNEL = device/htc/bravo/kernel/kernel
+TARGET_PREBUILT_KERNEL = device/htc/bravo/kernel
 
 # Extra RIL settings
 PRODUCT_PROPERTY_OVERRIDES += \
