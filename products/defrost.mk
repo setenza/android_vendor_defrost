@@ -10,7 +10,7 @@ $(call inherit-product, vendor/defrost/products/gsm.mk)
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := defrost_bravo
+PRODUCT_NAME := defrost
 PRODUCT_BRAND := htc_wwe
 PRODUCT_DEVICE := bravo
 PRODUCT_MODEL := HTC Desire
