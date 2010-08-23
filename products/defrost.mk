@@ -19,7 +19,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=FRF91 BUILD_DISPLAY_ID=FRF91 PRODUCT_NA
 
 # Include the Torch app
 PRODUCT_PACKAGES += Torch \
-    Stk
+    Stk \
+    DSPManager
 
 # Extra Passion overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/defrost/overlay/bravo
