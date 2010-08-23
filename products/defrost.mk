@@ -40,7 +40,7 @@ WITH_WINDOWS_MEDIA := true
 # Set ro.modversion
 #
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=DeFroST_3.0
+        ro.modversion=DeFroST_3.0c
 
 #
 # Copy passion specific prebuilt files
