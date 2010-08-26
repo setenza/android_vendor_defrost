@@ -71,7 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/defrost/prebuilt/common/xbin/powertop:system/xbin/powertop \
 
 PRODUCT_COPY_FILES +=  \
-    vendor/defrost/proprietary/RomManager.apk:system/app/RomManager.apk \
+    vendor/defrost/proprietary/RomManager.apk:data/app/RomManager.apk \
 
 # Always run in insecure mode, enables root on user build variants
 ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
@@ -82,7 +82,7 @@ ifdef DEFROST_WITH_GOOGLE
     PRODUCT_COPY_FILES += \
         vendor/defrost/proprietary/CarHomeGoogle.apk:./system/app/CarHomeGoogle.apk \
         vendor/defrost/proprietary/CarHomeLauncher.apk:./system/app/CarHomeLauncher.apk \
-        vendor/defrost/proprietary/Facebook.apk:./system/app/Facebook.apk \
+        vendor/defrost/proprietary/Facebook.apk:./data/app/Facebook.apk \
         vendor/defrost/proprietary/GenieWidget.apk:./system/app/GenieWidget.apk \
         vendor/defrost/proprietary/Gmail.apk:./system/app/Gmail.apk \
         vendor/defrost/proprietary/GoogleBackupTransport.apk:./system/app/GoogleBackupTransport.apk \
@@ -97,7 +97,7 @@ ifdef DEFROST_WITH_GOOGLE
         vendor/defrost/proprietary/HtcSettings.apk:./system/app/HtcSettings.apk \
         vendor/defrost/proprietary/LatinImeGoogle.apk:./system/app/LatinImeGoogle.apk \
         vendor/defrost/proprietary/LatinImeTutorial.apk:./system/app/LatinImeTutorial.apk \
-        vendor/defrost/proprietary/Maps.apk:./system/app/Maps.apk \
+        vendor/defrost/proprietary/Maps.apk:./data/app/Maps.apk \
         vendor/defrost/proprietary/MarketUpdater.apk:./system/app/MarketUpdater.apk \
         vendor/defrost/proprietary/MediaUploader.apk:./system/app/MediaUploader.apk \
         vendor/defrost/proprietary/NetworkLocation.apk:./system/app/NetworkLocation.apk \
@@ -105,12 +105,11 @@ ifdef DEFROST_WITH_GOOGLE
         vendor/defrost/proprietary/PassionQuickOffice.apk:./system/app/PassionQuickOffice.apk \
         vendor/defrost/proprietary/SetupWizard.apk:./system/app/SetupWizard.apk \
         vendor/defrost/proprietary/Street.apk:./system/app/Street.apk \
-        vendor/defrost/proprietary/Talk.apk:./system/app/Talk.apk \
-        vendor/defrost/proprietary/Twitter.apk:./system/app/Twitter.apk \
+        vendor/defrost/proprietary/Talk.apk:./data/app/Talk.apk \
+        vendor/defrost/proprietary/Twitter.apk:./data/app/Twitter.apk \
         vendor/defrost/proprietary/Vending.apk:./system/app/Vending.apk \
         vendor/defrost/proprietary/VoiceSearch.apk:./system/app/VoiceSearch.apk \
-        vendor/defrost/proprietary/YouTube.apk:./system/app/YouTube.apk \
-        vendor/defrost/proprietary/com.amazon.mp3.apk:./system/app/com.amazon.mp3.apk \
+        vendor/defrost/proprietary/YouTube.apk:./data/app/YouTube.apk \
         vendor/defrost/proprietary/googlevoice.apk:./system/app/googlevoice.apk \
         vendor/defrost/proprietary/kickback.apk:./system/app/kickback.apk \
         vendor/defrost/proprietary/soundback.apk:./system/app/soundback.apk \
