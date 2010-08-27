@@ -42,8 +42,7 @@ DEFROST_WITH_GOOGLE := true
 # Set ro.modversion
 #
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=DeFroST_3.2 \
-	ro.build.display.id=DeFroST 3.2 for HTC Desire (AOSP FRF91 + CyanogenMod)
+        ro.modversion=DeFroST_3.2 
 	
 
 #
