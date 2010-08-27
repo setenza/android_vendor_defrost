@@ -36,12 +36,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Enable Windows Media
 WITH_WINDOWS_MEDIA := true
+DEFROST_WITH_GOOGLE := true
 
 #
 # Set ro.modversion
 #
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=DeFroST_3.0c
+        ro.modversion=DeFroST_3.2 \
+	ro.build.display.id=DeFroST 3.2 for HTC Desire (AOSP FRF91 + CyanogenMod)
+	
 
 #
 # Copy passion specific prebuilt files
