@@ -102,7 +102,7 @@ ifdef DEFROST_WITH_GOOGLE
         vendor/defrost/proprietary/MediaUploader.apk:./system/app/MediaUploader.apk \
         vendor/defrost/proprietary/NetworkLocation.apk:./system/app/NetworkLocation.apk \
         vendor/defrost/proprietary/OneTimeInitializer.apk:./system/app/OneTimeInitializer.apk \
-        vendor/defrost/proprietary/PassionQuickOffice.apk:./system/app/PassionQuickOffice.apk \
+        vendor/defrost/proprietary/PassionQuickOffice.apk:./data/app/PassionQuickOffice.apk \
         vendor/defrost/proprietary/SetupWizard.apk:./system/app/SetupWizard.apk \
         vendor/defrost/proprietary/Street.apk:./system/app/Street.apk \
         vendor/defrost/proprietary/Talk.apk:./data/app/Talk.apk \
